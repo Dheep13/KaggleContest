@@ -4,12 +4,12 @@ This repository contains a collection of my Data Science assignments completed a
 
 ## Table of Contents
 - [Assignments](#assignments)
-  - [Linear Regression](assignments/Linear%20Regression-deepan.ipynb)
-  - [Regression with ANNs](assignments/Copy%20of%20Regression%20with%20ANNs-deepan.ipynb)
+  - [Linear Regression](assignments/Linear_Regression-deepan.ipynb)
+  - [Regression with ANNs](assignments/Regression_with_ANNs.ipynb)
   - [Binary Classification Competition](assignments/binary-classification-competition-deepan.ipynb)
   - [Multiclass Classification](assignments/Multiclass_Classification-deepan.ipynb)
-  - [Bird Classification using Transformers](assignments/BirdClassification%20using%20Transformers-final-deepan.ipynb)
-  - [Artificial Neural Networks Competition](assignments/Artificial%20Neural%20Networks%20Competition-deepan.ipynb)
+  - [Bird Classification using Transformers](assignments/BirdClassification_using_Transformers-final-deepan.ipynb)
+  - [Artificial Neural Networks Competition](assignments/Artificial_Neural_Networks_Competition-deepan.ipynb)
   - [RAG Using Gemma](assignments/RAG_Test_Gamma.ipynb)
 - [Usage](#usage)
 - [Contributing](#contributing)
