@@ -10,6 +10,7 @@ This repository contains a collection of my Data Science assignments completed a
   - [Multiclass Classification](Multiclass_Classification-deepan.ipynb)
   - [Bird Classification using Transformers](BirdClassification%20using%20Transformers-final-deepan.ipynb)
   - [Artificial Neural Networks Competition](Artificial%20Neural%20Networks%20Competition-deepan.ipynb)
+  - [RAG Using Gemma](RAG_Test_Gamma.ipynb)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
