@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoder-Only Transformer Breakdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .tech-details {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Decoder-Only Transformer Breakdown</h1>
+
+    <h2>Overview</h2>
+    <p>A decoder-only transformer is a type of neural network used primarily for text generation. It learns to predict the next word in a sequence based on the previous words.</p>
+
+    <h2>Key Components</h2>
+
+    <h3>1. Input Embedding</h3>
+    <div class="tech-details">
+        - Converts each input word into a vector of numbers
+        - Typical size: 512 to 2048 dimensions per word
+        - Example: "The" might become [0.1, -0.3, 0.7, ..., 0.2]
+    </div>
+
+    <h3>2. Positional Encoding</h3>
+    <div class="tech-details">
+        - Adds information about word position in the sentence
+        - Uses sine and cosine functions to create unique patterns
+        - Added to the word embeddings
+    </div>
+
+    <h3>3. Self-Attention Layer</h3>
+    <div class="tech-details">
+        - Allows each word to look at other words in the input
+        - Calculates three vectors for each word: Query, Key, and Value
+        - Typical sizes: 64 to 128 dimensions each
+        - Uses dot product and softmax to calculate attention scores
+    </div>
+
+    <h3>4. Feed-Forward Neural Network</h3>
+    <div class="tech-details">
+        - Applied to each word independently
+        - Typically two layers:
+          1. Input size to 4x input size
+          2. 4x input size back to input size
+        - Example: 512 → 2048 → 512
+    </div>
+
+    <h3>5. Layer Normalization</h3>
+    <div class="tech-details">
+        - Normalizes the outputs of self-attention and feed-forward layers
+        - Helps stabilize the learning process
+    </div>
+
+    <h3>6. Output Layer</h3>
+    <div class="tech-details">
+        - Converts the final representation back to word probabilities
+        - Size: Same as vocabulary size (e.g., 50,000 for a typical model)
+    </div>
+
+    <h2>Process Flow</h2>
+    <ol>
+        <li>Convert input words to embeddings</li>
+        <li>Add positional encodings</li>
+        <li>For each layer (typically 6 to 96 layers):
+            <ul>
+                <li>Apply self-attention</li>
+                <li>Add & normalize</li>
+                <li>Apply feed-forward network</li>
+                <li>Add & normalize</li>
+            </ul>
+        </li>
+        <li>Final output layer to get word probabilities</li>
+        <li>Select the most likely next word</li>
+        <li>Add this word to the input and repeat from step 1</li>
+    </ol>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>Autoregressive:</strong> Generates one word at a time, using previous words as context</li>
+        <li><strong>Masked Attention:</strong> Each word can only attend to previous words, not future ones</li>
+        <li><strong>Parameter Sharing:</strong> Same layers are used repeatedly, allowing for processing of variable-length inputs</li>
+        <li><strong>Scalability:</strong> Can be scaled to billions of parameters for improved performance</li>
+    </ul>
+
+    <h2>Training</h2>
+    <p>Trained on large text datasets, learning to predict the next word given the previous words. Uses techniques like causal language modeling and byte-pair encoding for handling large vocabularies.</p>
+
+    <h2>Applications</h2>
+    <ul>
+        <li>Text generation</li>
+        <li>Chatbots and conversational AI</li>
+        <li>Code completion</li>
+        <li>Language translation (with some modifications)</li>
+    </ul>
+
+</body>
+</html>

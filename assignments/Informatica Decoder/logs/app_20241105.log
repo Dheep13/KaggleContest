@@ -1,0 +1,446 @@
+2024-11-05 09:52:27,840 - root - INFO - OpenAI client initialized successfully
+2024-11-05 09:52:27,840 - root - INFO - Static directories created successfully
+2024-11-05 09:52:27,856 - root - INFO - Static directories created successfully
+2024-11-05 09:52:27,907 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 09:52:27,907 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:08:14,293 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:08:14,307 - root - INFO - Static directories created successfully
+2024-11-05 10:08:14,321 - root - INFO - Static directories created successfully
+2024-11-05 10:08:14,425 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:08:14,427 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:12:30,075 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:12:30,078 - root - INFO - Static directories created successfully
+2024-11-05 10:12:30,092 - root - INFO - Static directories created successfully
+2024-11-05 10:12:30,140 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:12:30,143 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:21:16,257 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:21:16,261 - root - INFO - Static directories created successfully
+2024-11-05 10:21:16,270 - root - INFO - Static directories created successfully
+2024-11-05 10:21:16,311 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:21:16,313 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:26:17,955 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:26:17,981 - root - INFO - Static directories created successfully
+2024-11-05 10:26:17,998 - root - INFO - Static directories created successfully
+2024-11-05 10:26:18,110 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:26:18,113 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:33:54,749 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:33:54,753 - root - INFO - Static directories created successfully
+2024-11-05 10:33:54,762 - root - INFO - Static directories created successfully
+2024-11-05 10:33:54,804 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:33:54,810 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:37:06,443 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:37:06,445 - root - INFO - Static directories created successfully
+2024-11-05 10:37:06,452 - root - INFO - Static directories created successfully
+2024-11-05 10:37:06,490 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:37:06,491 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:41:55,450 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:41:55,452 - root - INFO - Static directories created successfully
+2024-11-05 10:41:55,459 - root - INFO - Static directories created successfully
+2024-11-05 10:41:55,488 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:41:55,490 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:43:05,980 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:43:05,982 - root - INFO - Static directories created successfully
+2024-11-05 10:43:05,992 - root - INFO - Static directories created successfully
+2024-11-05 10:43:06,014 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:43:06,016 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 10:59:27,583 - root - INFO - OpenAI client initialized successfully
+2024-11-05 10:59:27,585 - root - INFO - Static directories created successfully
+2024-11-05 10:59:27,589 - root - INFO - Static directories created successfully
+2024-11-05 10:59:27,628 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 10:59:27,631 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:05:22,691 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:05:22,696 - root - INFO - Static directories created successfully
+2024-11-05 11:05:22,710 - root - INFO - Static directories created successfully
+2024-11-05 11:05:22,831 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:05:22,834 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:19:29,850 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:19:29,853 - root - INFO - Static directories created successfully
+2024-11-05 11:19:29,863 - root - INFO - Static directories created successfully
+2024-11-05 11:19:29,906 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:19:29,908 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:21:01,004 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:21:01,006 - root - INFO - Static directories created successfully
+2024-11-05 11:21:01,013 - root - INFO - Static directories created successfully
+2024-11-05 11:21:01,035 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:21:01,036 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:34:52,320 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:34:52,325 - root - INFO - Static directories created successfully
+2024-11-05 11:34:52,336 - root - INFO - Static directories created successfully
+2024-11-05 11:34:52,374 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:34:52,376 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:38:21,983 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:38:21,985 - root - INFO - Static directories created successfully
+2024-11-05 11:38:21,990 - root - INFO - Static directories created successfully
+2024-11-05 11:38:22,011 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:38:22,012 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:40:15,773 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:40:15,775 - root - INFO - Static directories created successfully
+2024-11-05 11:40:15,779 - root - INFO - Static directories created successfully
+2024-11-05 11:40:15,797 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:40:15,798 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:45:37,056 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:45:37,059 - root - INFO - Static directories created successfully
+2024-11-05 11:45:37,066 - root - INFO - Static directories created successfully
+2024-11-05 11:45:37,093 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:45:37,094 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:46:33,800 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:46:33,802 - root - INFO - Static directories created successfully
+2024-11-05 11:46:33,807 - root - INFO - Static directories created successfully
+2024-11-05 11:46:33,827 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:46:33,829 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:48:56,996 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:48:56,998 - root - INFO - Static directories created successfully
+2024-11-05 11:48:57,004 - root - INFO - Static directories created successfully
+2024-11-05 11:48:57,051 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:48:57,052 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:48:57,072 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:48:58,367 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:48:58,368 - root - INFO - Static directories created successfully
+2024-11-05 11:48:58,373 - root - INFO - Static directories created successfully
+2024-11-05 11:48:58,381 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:48:58,390 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:49:41,113 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:49:41,115 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:49:41,404 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:49:41,405 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:49:41,408 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:49:41,685 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:49:41,687 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:49:41,959 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:49:45,783 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:49:45,785 - root - INFO - Static directories created successfully
+2024-11-05 11:49:45,793 - root - INFO - Static directories created successfully
+2024-11-05 11:49:45,813 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:49:45,822 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:51:46,711 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:51:46,714 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:51:47,330 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:51:50,573 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:51:50,575 - root - INFO - Static directories created successfully
+2024-11-05 11:51:50,581 - root - INFO - Static directories created successfully
+2024-11-05 11:51:50,600 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:51:50,610 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:51:58,014 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:51:58,017 - root - INFO - Static directories created successfully
+2024-11-05 11:51:58,025 - root - INFO - Static directories created successfully
+2024-11-05 11:51:58,066 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:51:58,070 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:51:58,087 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:52:00,715 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:52:00,717 - root - INFO - Static directories created successfully
+2024-11-05 11:52:00,728 - root - INFO - Static directories created successfully
+2024-11-05 11:52:00,750 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:52:00,759 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:55:52,911 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:55:52,914 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:55:53,696 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:55:56,171 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:55:56,175 - root - INFO - Static directories created successfully
+2024-11-05 11:55:56,183 - root - INFO - Static directories created successfully
+2024-11-05 11:55:56,212 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:55:56,223 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:58:11,140 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:11,142 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:12,093 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:58:13,645 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:58:13,647 - root - INFO - Static directories created successfully
+2024-11-05 11:58:13,651 - root - INFO - Static directories created successfully
+2024-11-05 11:58:13,664 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:58:13,669 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:58:19,678 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:19,679 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:19,681 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:19,684 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:19,861 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:58:21,175 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:58:21,177 - root - INFO - Static directories created successfully
+2024-11-05 11:58:21,181 - root - INFO - Static directories created successfully
+2024-11-05 11:58:21,192 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:58:21,197 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:58:27,377 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:58:27,379 - root - INFO - Static directories created successfully
+2024-11-05 11:58:27,384 - root - INFO - Static directories created successfully
+2024-11-05 11:58:27,418 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 11:58:27,420 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 11:58:27,431 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:58:29,532 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:58:29,535 - root - INFO - Static directories created successfully
+2024-11-05 11:58:29,543 - root - INFO - Static directories created successfully
+2024-11-05 11:58:29,559 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:58:29,569 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 11:58:58,516 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:58,518 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 11:58:58,919 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 11:59:00,202 - root - INFO - OpenAI client initialized successfully
+2024-11-05 11:59:00,204 - root - INFO - Static directories created successfully
+2024-11-05 11:59:00,208 - root - INFO - Static directories created successfully
+2024-11-05 11:59:00,216 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 11:59:00,221 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 12:00:04,684 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:00:04,714 - root - INFO - Static directories created successfully
+2024-11-05 12:00:04,781 - root - INFO - Static directories created successfully
+2024-11-05 12:00:05,038 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 12:00:05,043 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 12:00:05,124 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 12:00:13,795 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:00:13,848 - root - INFO - Static directories created successfully
+2024-11-05 12:00:13,940 - root - INFO - Static directories created successfully
+2024-11-05 12:00:14,061 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 12:00:14,096 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 12:00:14,581 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+2024-11-05 12:00:14,601 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:00:14] "[35m[1mGET / HTTP/1.1[0m" 500 -
+2024-11-05 12:00:16,561 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 12:00:27,768 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:00:27,797 - root - INFO - Static directories created successfully
+2024-11-05 12:00:27,837 - root - INFO - Static directories created successfully
+2024-11-05 12:00:28,023 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 12:00:28,069 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 12:00:28,734 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:00:28] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-11-05 12:00:34,762 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:00:34] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2024-11-05 12:01:09,479 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:01:09] "GET / HTTP/1.1" 200 -
+2024-11-05 12:01:09,788 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:01:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 12:01:09,794 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:01:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 12:01:16,759 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:01:16] "GET / HTTP/1.1" 200 -
+2024-11-05 12:01:17,079 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:01:17] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 12:01:17,085 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:01:17] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 12:01:28,141 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:01:28,167 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:01:28] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:05:26,278 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:05:26,279 - root - INFO - Static directories created successfully
+2024-11-05 12:05:26,284 - root - INFO - Static directories created successfully
+2024-11-05 12:05:26,318 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 12:05:26,319 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 12:05:26,343 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 12:05:27,793 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:05:27,795 - root - INFO - Static directories created successfully
+2024-11-05 12:05:27,800 - root - INFO - Static directories created successfully
+2024-11-05 12:05:27,812 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 12:05:27,819 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 12:05:31,629 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:05:31] "GET / HTTP/1.1" 200 -
+2024-11-05 12:05:31,944 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:05:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 12:05:31,960 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:05:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 12:05:44,174 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:05:44,185 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:05:44] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:08:14,890 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:08:14,894 - __main__ - ERROR - Error parsing XML: Expected MAPPING element, got POWERMART
+2024-11-05 12:08:14,897 - __main__ - ERROR - Validation error: Expected MAPPING element, got POWERMART
+2024-11-05 12:08:14,902 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:08:14] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2024-11-05 12:09:09,131 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:09:09,134 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:09:09] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:10:26,698 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:10:26,704 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:10:26] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:11:12,392 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:11:12,396 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:11:12] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:13:28,164 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:13:28,170 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:13:28] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:15:03,853 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 12:15:03,855 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\OneDrive - MuniConS GmbH\\Documents\\Visual Studio Code\\49_DS_PET_PROJECT\\Informatica Decoder\\app.py', reloading
+2024-11-05 12:15:04,408 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 12:15:06,540 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:15:06,544 - root - INFO - Static directories created successfully
+2024-11-05 12:15:06,548 - root - INFO - Static directories created successfully
+2024-11-05 12:15:06,569 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 12:15:06,581 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 12:16:13,844 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:16:13,849 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:16:13] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:17:07,607 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:17:07,609 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:17:07] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:17:26,802 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:17:26,805 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:17:26] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:18:24,285 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:18:24,287 - root - INFO - Static directories created successfully
+2024-11-05 12:18:24,292 - root - INFO - Static directories created successfully
+2024-11-05 12:18:24,319 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 12:18:24,322 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 12:18:24,334 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 12:18:25,728 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:18:25,730 - root - INFO - Static directories created successfully
+2024-11-05 12:18:25,736 - root - INFO - Static directories created successfully
+2024-11-05 12:18:25,744 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 12:18:25,753 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 12:18:31,823 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:18:31] "GET / HTTP/1.1" 200 -
+2024-11-05 12:18:31,987 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:18:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 12:18:31,989 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:18:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 12:18:34,446 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:18:34,451 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:18:34] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:19:49,291 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:19:49,301 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:19:49] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:20:31,216 - __main__ - INFO - Starting document generation for mapping: m_TST_AGENT_STMT
+2024-11-05 12:20:31,217 - __main__ - INFO - Generating document content using OpenAI
+2024-11-05 12:20:31,222 - __main__ - INFO - Starting design document generation
+2024-11-05 12:20:31,226 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-05 12:20:36,498 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:20:42,114 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:20:51,006 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:21:01,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:21:01,692 - __main__ - INFO - Document generation completed successfully
+2024-11-05 12:21:01,694 - __main__ - INFO - Successfully generated document content
+2024-11-05 12:21:01,696 - __main__ - INFO - Converting content to PDF
+2024-11-05 12:21:01,727 - __main__ - INFO - Successfully generated PDF
+2024-11-05 12:21:01,729 - __main__ - INFO - Successfully completed document generation
+2024-11-05 12:21:01,733 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:21:01] "POST /generate_document HTTP/1.1" 200 -
+2024-11-05 12:22:06,085 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:22:06,090 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:22:06] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:22:56,625 - __main__ - INFO - Starting document generation for mapping: m_TST_AGENT_STMT
+2024-11-05 12:22:56,630 - __main__ - INFO - Generating document content using OpenAI
+2024-11-05 12:22:56,635 - __main__ - INFO - Starting design document generation
+2024-11-05 12:22:56,643 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-05 12:23:00,802 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:23:08,398 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:23:17,570 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:23:27,602 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:23:27,606 - __main__ - INFO - Document generation completed successfully
+2024-11-05 12:23:27,611 - __main__ - INFO - Successfully generated document content
+2024-11-05 12:23:27,614 - __main__ - INFO - Converting content to PDF
+2024-11-05 12:23:27,629 - __main__ - INFO - Successfully generated PDF
+2024-11-05 12:23:27,630 - __main__ - INFO - Successfully completed document generation
+2024-11-05 12:23:27,634 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:23:27] "POST /generate_document HTTP/1.1" 200 -
+2024-11-05 12:24:05,021 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:24:05,024 - root - INFO - Static directories created successfully
+2024-11-05 12:24:05,024 - root - INFO - Static directories created successfully
+2024-11-05 12:24:05,084 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2024-11-05 12:24:05,084 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-05 12:24:05,110 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 12:24:07,840 - root - INFO - OpenAI client initialized successfully
+2024-11-05 12:24:07,842 - root - INFO - Static directories created successfully
+2024-11-05 12:24:07,848 - root - INFO - Static directories created successfully
+2024-11-05 12:24:07,866 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 12:24:07,879 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 12:24:11,971 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:24:11] "GET / HTTP/1.1" 200 -
+2024-11-05 12:24:12,150 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:24:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 12:24:12,151 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:24:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 12:24:14,539 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:24:14,545 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:24:14] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:25:04,867 - __main__ - INFO - Received XML content for analysis
+2024-11-05 12:25:04,886 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:25:04] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 12:25:39,960 - __main__ - INFO - Starting document generation for mapping: m_TST_AGENT_STMT
+2024-11-05 12:25:39,961 - __main__ - INFO - Generating document content using OpenAI
+2024-11-05 12:25:39,966 - __main__ - INFO - Starting design document generation
+2024-11-05 12:25:39,968 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-05 12:25:44,148 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:25:50,663 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:26:01,111 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:26:09,046 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 12:26:09,051 - __main__ - INFO - Document generation completed successfully
+2024-11-05 12:26:09,054 - __main__ - INFO - Successfully generated document content
+2024-11-05 12:26:09,055 - __main__ - INFO - Converting content to PDF
+2024-11-05 12:26:09,100 - __main__ - INFO - Successfully generated PDF
+2024-11-05 12:26:09,104 - __main__ - INFO - Successfully completed document generation
+2024-11-05 12:26:09,110 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:26:09] "POST /generate_document HTTP/1.1" 200 -
+2024-11-05 12:53:32,294 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:53:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 12:53:32,295 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 12:53:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 12:53:32,796 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:53:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 12:53:32,796 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:53:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 12:53:38,011 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:53:38] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 12:53:38,012 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 12:53:38] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 16:19:44,996 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Roaming\\Python\\Python312\\site-packages\\IPython\\display.py', reloading
+2024-11-05 16:19:45,053 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Roaming\\Python\\Python312\\site-packages\\IPython\\core\\display_functions.py', reloading
+2024-11-05 16:19:45,056 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Roaming\\Python\\Python312\\site-packages\\IPython\\lib\\display.py', reloading
+2024-11-05 16:19:46,099 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 16:19:49,931 - root - INFO - OpenAI client initialized successfully
+2024-11-05 16:19:49,947 - root - INFO - Static directories created successfully
+2024-11-05 16:19:49,947 - root - INFO - Static directories created successfully
+2024-11-05 16:19:49,978 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 16:19:49,994 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 16:20:05,167 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\__init__.py', reloading
+2024-11-05 16:20:05,167 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+2024-11-05 16:20:05,185 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+2024-11-05 16:20:05,194 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_array_like.py', reloading
+2024-11-05 16:20:05,210 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nested_sequence.py', reloading
+2024-11-05 16:20:05,327 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_utils\\__init__.py', reloading
+2024-11-05 16:20:05,353 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+2024-11-05 16:20:05,426 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\_typing\\_nbit.py', reloading
+2024-11-05 16:20:05,436 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Roaming\\Python\\Python312\\site-packages\\IPython\\core\\display.py', reloading
+2024-11-05 16:20:05,499 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Roaming\\Python\\Python312\\site-packages\\IPython\\testing\\skipdoctest.py', reloading
+2024-11-05 16:20:05,640 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\numpy\\typing\\__init__.py', reloading
+2024-11-05 16:20:06,121 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\__init__.py', reloading
+2024-11-05 16:20:06,129 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\_base.py', reloading
+2024-11-05 16:20:06,160 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\scipy\\sparse\\_csr.py', reloading
+2024-11-05 16:20:06,630 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)
+2024-11-05 16:20:09,002 - root - INFO - OpenAI client initialized successfully
+2024-11-05 16:20:09,004 - root - INFO - Static directories created successfully
+2024-11-05 16:20:09,010 - root - INFO - Static directories created successfully
+2024-11-05 16:20:09,024 - werkzeug - WARNING -  * Debugger is active!
+2024-11-05 16:20:09,031 - werkzeug - INFO -  * Debugger PIN: 386-888-302
+2024-11-05 17:06:51,571 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\__init__.py', reloading
+2024-11-05 17:06:51,719 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\commands\\page_config.py', reloading
+2024-11-05 17:06:51,771 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\runtime\\metrics_util.py', reloading
+2024-11-05 17:06:51,856 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\logger.py', reloading
+2024-11-05 17:06:51,890 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\elements\\__init__.py', reloading
+2024-11-05 17:06:51,890 - werkzeug - INFO -  * Detected change in 'C:\\Users\\DeepanShanmugam\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\streamlit\\elements\\image.py', reloading
+2024-11-05 17:06:52,607 - werkzeug - INFO -  * Restarting with watchdog (windowsapi)

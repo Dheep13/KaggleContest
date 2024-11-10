@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>U-Net Architecture Breakdown</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 {
+            color: #2c3e50;
+        }
+        .tech-details {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .math {
+            font-family: 'Courier New', Courier, monospace;
+            background-color: #e6f3ff;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>U-Net Architecture Breakdown</h1>
+
+    <h2>Overview</h2>
+    <p>U-Net is a convolutional neural network architecture designed for biomedical image segmentation. Its U-shaped architecture allows it to capture both context and precise localization.</p>
+
+    <h2>Key Components</h2>
+
+    <h3>1. Contracting Path (Encoder)</h3>
+    <div class="tech-details">
+        - Series of convolutional and max pooling layers
+        - Captures context and reduces spatial dimensions
+        - Typically 4 or 5 contracting blocks
+    </div>
+
+    <h3>2. Expanding Path (Decoder)</h3>
+    <div class="tech-details">
+        - Series of upsampling and convolutional layers
+        - Increases spatial dimensions and combines features
+        - Typically 4 or 5 expanding blocks, matching the contracting path
+    </div>
+
+    <h3>3. Skip Connections</h3>
+    <div class="tech-details">
+        - Connect corresponding layers in contracting and expanding paths
+        - Preserve fine-grained details for precise localization
+    </div>
+
+    <h3>4. Final Convolutional Layer</h3>
+    <div class="tech-details">
+        - Maps feature vector to desired number of classes
+        - Often uses 1x1 convolutions
+    </div>
+
+    <h2>Detailed Architecture</h2>
+
+    <h3>Contracting Path (Example for 256x256 input)</h3>
+    <ol>
+        <li>Input: 256x256x3 (for RGB image)</li>
+        <li>Conv 3x3, ReLU: 256x256x64</li>
+        <li>Conv 3x3, ReLU: 256x256x64</li>
+        <li>Max Pool 2x2: 128x128x64</li>
+        <li>Conv 3x3, ReLU: 128x128x128</li>
+        <li>Conv 3x3, ReLU: 128x128x128</li>
+        <li>Max Pool 2x2: 64x64x128</li>
+        <li>... (continues to 16x16x512)</li>
+    </ol>
+
+    <h3>Expanding Path</h3>
+    <ol>
+        <li>Upconv 2x2: 32x32x256</li>
+        <li>Concatenate with corresponding contracting layer</li>
+        <li>Conv 3x3, ReLU: 32x32x256</li>
+        <li>Conv 3x3, ReLU: 32x32x256</li>
+        <li>... (continues to 256x256x64)</li>
+        <li>Final 1x1 Conv: 256x256x(number of classes)</li>
+    </ol>
+
+    <h2>Mathematical Operations</h2>
+
+    <h3>1. Convolution</h3>
+    <div class="math">
+        Output[x,y] = Σ Σ Input[x+i, y+j] * Kernel[i,j]
+        
+        Where:
+        - Input: input feature map
+        - Kernel: convolutional filter
+        - Output: resulting feature map
+    </div>
+
+    <h3>2. Max Pooling</h3>
+    <div class="math">
+        Output[x,y] = max(Input[2x:2x+2, 2y:2y+2])
+        
+        For 2x2 max pooling
+    </div>
+
+    <h3>3. ReLU Activation</h3>
+    <div class="math">
+        ReLU(x) = max(0, x)
+    </div>
+
+    <h3>4. Upsampling (Transposed Convolution)</h3>
+    <div class="math">
+        Output size = (Input size - 1) * stride + Kernel size - 2 * padding
+    </div>
+
+    <h3>5. Concatenation</h3>
+    <div class="math">
+        Output[x,y,z] = 
+            Contracting[x,y,z] for z < depth_contracting
+            Expanding[x,y,z-depth_contracting] otherwise
+    </div>
+
+    <h2>Training Process</h2>
+    <ol>
+        <li>Forward pass through the network</li>
+        <li>Compute loss (often using cross-entropy for segmentation)</li>
+        <li>Backpropagate gradients</li>
+        <li>Update weights using an optimizer (e.g., Adam)</li>
+    </ol>
+
+    <h2>Loss Function (Example: Binary Cross-Entropy)</h2>
+    <div class="math">
+        BCE = -Σ(y * log(p) + (1-y) * log(1-p))
+        
+        Where:
+        - y: true label (0 or 1)
+        - p: predicted probability
+    </div>
+
+    <h2>Key Features</h2>
+    <ul>
+        <li><strong>Skip Connections:</strong> Allow fine-grained details to be preserved</li>
+        <li><strong>Symmetric Architecture:</strong> Ensures equal numbers of contracting and expanding layers</li>
+        <li><strong>No Fully Connected Layers:</strong> Allows for variable input sizes</li>
+        <li><strong>Data Augmentation:</strong> Often used due to limited availability of medical imaging data</li>
+    </ul>
+
+    <h2>Applications</h2>
+    <ul>
+        <li>Medical image segmentation (e.g., tumor detection, organ segmentation)</li>
+        <li>Cell detection and counting in microscopy images</li>
+        <li>Satellite image analysis</li>
+    </ul>
+
+</body>
+</html>

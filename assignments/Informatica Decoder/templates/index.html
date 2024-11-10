@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Informatica Mapping Analyzer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/9.4.3/mermaid.min.js"></script>
+    <link rel="stylesheet" href="/static/css/styles.css">
+</head>
+<body class="bg-gray-100 min-h-screen">
+    <!-- Loading Spinner -->
+    <div id="loadingSpinner" class="hidden fixed inset-0 bg-gray-600 bg-opacity-50 flex items-center justify-center z-50">
+        <div class="bg-white p-6 rounded-lg shadow-xl flex flex-col items-center">
+            <div class="animate-spin rounded-full h-12 w-12 border-b-2 border-blue-500"></div>
+            <p id="loadingText" class="mt-4 text-gray-700">Processing...</p>
+        </div>
+    </div>
+
+    <!-- Alert Container -->
+    <div id="alertContainer" class="fixed top-4 right-4 z-50"></div>
+
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <h1 class="text-3xl font-bold text-gray-900 mb-8">Informatica Mapping Analyzer</h1>
+
+        <!-- Upload Section -->
+        <div class="bg-white rounded-lg shadow-md p-6 mb-8">
+            <h2 class="text-xl font-semibold mb-4">Upload Mapping XML</h2>
+            <form id="uploadForm" class="space-y-4">
+                <div class="flex items-center space-x-4">
+                    <input type="file" id="fileInput" accept=".xml" class="hidden">
+                    <button type="button" id="uploadFileBtn" class="px-4 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2">
+                        Choose File
+                    </button>
+                    <span id="fileLabel" class="text-gray-600">No file chosen</span>
+                </div>
+
+                <div class="mt-4">
+                    <textarea 
+                        id="xmlInput" 
+                        rows="10" 
+                        class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-blue-500" 
+                        placeholder="Paste your XML here..."
+                    ></textarea>
+                </div>
+
+                <div class="flex space-x-4">
+                    <button 
+                        type="button" 
+                        id="analyzeButton"
+                        class="px-6 py-2 bg-green-500 text-white rounded hover:bg-green-600 focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
+                    >
+                        Analyze Mapping
+                    </button>
+                    <button 
+                        type="button" 
+                        id="clearButton" 
+                        class="px-6 py-2 bg-gray-500 text-white rounded hover:bg-gray-600 focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2"
+                    >
+                        Clear
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Results Section -->
+        <div id="results" class="hidden space-y-8">
+            <!-- Tab Navigation -->
+            <div class="border-b border-gray-200">
+                <nav class="flex space-x-8">
+                    <button class="tab-button active" data-tab="overview">Transformations</button>
+                    <button class="tab-button" data-tab="transformations">Transformations</button>
+                    <button class="tab-button" data-tab="dataflow">Data Flow</button>
+                    <button class="tab-button" data-tab="expressions">Expressions</button>
+                    <button class="tab-button" data-tab="sql">SQL Queries</button>
+                </nav>
+            </div>
+
+            <!-- Overview Tab -->
+            <div id="overview-content" class="tab-content">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">Overview</h3>
+                    <div id="mappingOverview"></div>
+                    <div id="flowDiagram" class="mt-4"></div>
+                </div>
+            </div>
+
+            <!-- Transformations Tab -->
+            <div id="transformations-content" class="tab-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">Transformations</h3>
+                    <div id="transformationsContent"></div>
+                </div>
+            </div>
+
+            <!-- Data Flow Tab -->
+            <div id="dataflow-content" class="tab-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">Data Flow</h3>
+                    <div id="dataFlowContent"></div>
+                </div>
+            </div>
+
+            <!-- Expressions Tab -->
+            <div id="expressions-content" class="tab-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">Expressions</h3>
+                    <div id="expressionsContent"></div>
+                </div>
+            </div>
+
+            <!-- SQL Queries Tab -->
+            <div id="sql-content" class="tab-content hidden">
+                <div class="bg-white rounded-lg shadow-md p-6">
+                    <h3 class="text-xl font-semibold mb-4">SQL Queries</h3>
+                    <div id="sqlContent" class="space-y-6"></div>
+                </div>
+            </div> 
+
+            <!-- Generate Document Section -->
+            <div class="bg-white rounded-lg shadow-md p-6">
+                <div class="flex justify-between items-center">
+                    <h3 class="text-xl font-semibold">Design Document</h3>
+                    <button 
+                        id="generateDocBtn" 
+                        class="px-6 py-2 bg-blue-500 text-white rounded hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+                    >
+                        Generate AI Document
+                    </button>
+                </div>
+                <div id="designDocumentContent" class="mt-4 p-4 bg-gray-100 rounded-lg whitespace-pre-wrap"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="mt-12 py-6 bg-gray-800 text-gray-300">
+        <div class="max-w-7xl mx-auto px-4 text-center">
+            <p>&copy; 2024 Informatica Mapping Analyzer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="/static/js/main.js"></script>
+</body>
+</html>

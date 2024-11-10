@@ -1,0 +1,7 @@
+{
+    "greeting": "Hello! I'm your SAP AI assistant. How can I help you today?",
+    "farewell": "Goodbye! Have a great day!",
+    "help": "I can help you with: \n- Basic SAP information\n- Current date and time\n- General assistance\nJust ask me what you need!",
+    "sap_info": "SAP is a leading enterprise software company. Their solutions include ERP, CRM, and various cloud services.",
+    "unknown": "I'm not sure I understand. Could you please rephrase that or ask for help to see what I can do?"
+}

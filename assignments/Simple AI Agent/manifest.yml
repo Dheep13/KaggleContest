@@ -1,0 +1,10 @@
+applications:
+- name: sap-ai-agent
+  memory: 256M
+  instances: 1
+  buildpack: python_buildpack
+  command: python app.py
+  env:
+    PYTHONUNBUFFERED: true
+    OPENAI_API_KEY: ${OPENAI_API_KEY}
+    INFORMATICA_DECODER_URL: ${INFORMATICA_DECODER_URL}

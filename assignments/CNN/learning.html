@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computer Vision Models Using Convolutional Networks (as of April 2024)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        .model-info {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Computer Vision Models Using Convolutional Networks (as of April 2024)</h1>
+
+    <div class="model-info">
+        <h2>1. YOLO (You Only Look Once) series</h2>
+        <p>Uses a CNN backbone for feature extraction. Later versions may incorporate transformer elements but still rely on CNNs for initial processing.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>2. Faster R-CNN and Mask R-CNN</h2>
+        <p>Use CNN backbones (like ResNet) for feature extraction before applying region proposal and classification heads.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>3. DeepLab series</h2>
+        <p>Employs atrous (dilated) convolutions for semantic segmentation tasks.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>4. U-Net and variants</h2>
+        <p>Utilizes a fully convolutional network architecture with skip connections, popular in medical image segmentation.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>5. EfficientNetV2</h2>
+        <p>An optimized CNN architecture designed for both accuracy and computational efficiency.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>6. MobileViT</h2>
+        <p>Combines mobile-friendly CNN designs with transformer elements.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>7. Stable Diffusion</h2>
+        <p>Uses a U-Net with convolutional layers as its core component for image generation.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>8. CLIP (Contrastive Language-Image Pre-training)</h2>
+        <p>While primarily known for its transformer-based text encoder, it uses a modified ResNet as its vision encoder.</p>
+    </div>
+
+    <div class="model-info">
+        <h2>9. Swin Transformer</h2>
+        <p>Although transformer-based, it incorporates shifted window partitioning, which is analogous to convolutions with varying receptive fields.</p>
+    </div>
+
+    <p>Note: Many models combine CNNs with other architectures like transformers. The trend is towards hybrid models that leverage the strengths of both CNNs and other neural network types.</p>
+</body>
+</html>

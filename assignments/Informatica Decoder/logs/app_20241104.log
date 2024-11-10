@@ -1,0 +1,487 @@
+2024-11-04 11:20:21,791 - root - INFO - OpenAI client initialized successfully
+2024-11-04 11:20:21,795 - root - INFO - Static directories created successfully
+2024-11-04 11:20:21,804 - root - INFO - Static directories created successfully
+2024-11-04 11:20:21,856 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 11:20:21,858 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 11:20:23,525 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:20:23] "GET / HTTP/1.1" 200 -
+2024-11-04 11:20:23,935 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:20:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 11:20:23,942 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:20:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-04 11:20:34,293 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:20:34,298 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:20:34] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:20:49,045 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:20:49] "POST /generate_document HTTP/1.1" 200 -
+2024-11-04 11:21:30,464 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:21:30] "GET / HTTP/1.1" 200 -
+2024-11-04 11:21:30,695 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:21:30] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-04 11:21:30,695 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:21:30] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-04 11:21:33,163 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:21:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-04 11:22:06,654 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:22:06,658 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:22:06] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:22:06,906 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:22:06,910 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:22:06] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:22:14,024 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:22:14] "POST /generate_document HTTP/1.1" 200 -
+2024-11-04 11:29:42,442 - root - INFO - OpenAI client initialized successfully
+2024-11-04 11:29:42,444 - root - INFO - Static directories created successfully
+2024-11-04 11:29:42,462 - root - INFO - Static directories created successfully
+2024-11-04 11:29:42,500 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 11:29:42,502 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 11:29:43,881 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:29:43] "GET / HTTP/1.1" 200 -
+2024-11-04 11:29:44,366 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:29:44] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 11:29:44,388 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:29:44] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-04 11:29:55,273 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:29:55,275 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:29:55] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:29:59,699 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:29:59] "POST /generate_document HTTP/1.1" 200 -
+2024-11-04 11:30:23,613 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:30:23] "GET / HTTP/1.1" 200 -
+2024-11-04 11:30:23,796 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:30:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 11:30:23,798 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:30:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-04 11:30:29,993 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:30:29,998 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:30:29] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:30:33,177 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:30:33] "POST /generate_document HTTP/1.1" 200 -
+2024-11-04 11:31:01,101 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 11:31:01] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 11:38:04,128 - root - INFO - OpenAI client initialized successfully
+2024-11-04 11:38:04,131 - root - INFO - Static directories created successfully
+2024-11-04 11:38:04,138 - root - INFO - Static directories created successfully
+2024-11-04 11:38:04,182 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 11:38:04,184 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 11:38:06,359 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:38:06] "GET / HTTP/1.1" 200 -
+2024-11-04 11:38:06,962 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:38:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 11:38:06,966 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:38:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-04 11:38:15,030 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:38:15,034 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:38:15] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:38:18,979 - __main__ - INFO - Starting document generation for mapping: m_AIA_AGENT_STMT_DEDUCTIONS_MH
+2024-11-04 11:38:18,980 - __main__ - INFO - Generating document content using OpenAI
+2024-11-04 11:38:18,984 - __main__ - INFO - Starting design document generation
+2024-11-04 11:38:18,985 - __main__ - INFO - Generating document sections using OpenAI
+2024-11-04 11:38:46,324 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:39:24,633 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:39:47,267 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:40:10,356 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:40:34,094 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:40:34,095 - __main__ - INFO - Document generation completed successfully
+2024-11-04 11:40:34,096 - __main__ - INFO - Successfully generated document content
+2024-11-04 11:40:34,097 - __main__ - INFO - Converting content to PDF
+2024-11-04 11:40:34,098 - __main__ - ERROR - Error in PDF generation: 'dict' object has no attribute 'split'
+2024-11-04 11:40:34,099 - __main__ - ERROR - Error in generate_document route: Failed to create PDF
+Traceback (most recent call last):
+  File "C:\Users\DeepanShanmugam\OneDrive - MuniConS GmbH\Documents\Visual Studio Code\49_DS_PET_PROJECT\Informatica Decoder\app.py", line 554, in generate_document
+    pdf_buffer = generate_design_document_pdf(mapping_data)  # <-- This was the issue
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DeepanShanmugam\OneDrive - MuniConS GmbH\Documents\Visual Studio Code\49_DS_PET_PROJECT\Informatica Decoder\app.py", line 489, in generate_design_document_pdf
+    sections = content.split('\n\n')
+               ^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'split'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\DeepanShanmugam\OneDrive - MuniConS GmbH\Documents\Visual Studio Code\49_DS_PET_PROJECT\Informatica Decoder\app.py", line 560, in generate_document
+    raise Exception("Failed to create PDF") from e
+Exception: Failed to create PDF
+2024-11-04 11:40:34,109 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:40:34] "[35m[1mPOST /generate_document HTTP/1.1[0m" 500 -
+2024-11-04 11:45:25,700 - root - INFO - OpenAI client initialized successfully
+2024-11-04 11:45:25,706 - root - INFO - Static directories created successfully
+2024-11-04 11:45:25,716 - root - INFO - Static directories created successfully
+2024-11-04 11:45:25,765 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 11:45:25,767 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 11:45:28,474 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:45:28] "GET / HTTP/1.1" 200 -
+2024-11-04 11:45:28,930 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:45:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-04 11:45:28,934 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:45:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 11:45:40,827 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:45:40,832 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:45:40] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:45:44,287 - __main__ - INFO - Starting document generation for mapping: m_AIA_AGENT_STMT_DEDUCTIONS_MH
+2024-11-04 11:45:44,288 - __main__ - INFO - Generating document content using OpenAI
+2024-11-04 11:45:44,290 - __main__ - INFO - Starting design document generation
+2024-11-04 11:45:44,292 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-04 11:45:50,426 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:45:56,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:46:07,829 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:46:24,104 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:46:24,106 - __main__ - INFO - Document generation completed successfully
+2024-11-04 11:46:24,107 - __main__ - INFO - Successfully generated document content
+2024-11-04 11:46:24,108 - __main__ - INFO - Converting content to PDF
+2024-11-04 11:46:24,148 - __main__ - INFO - Successfully generated PDF
+2024-11-04 11:46:24,149 - __main__ - INFO - Successfully completed document generation
+2024-11-04 11:46:24,150 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:46:24] "POST /generate_document HTTP/1.1" 200 -
+2024-11-04 11:49:20,303 - __main__ - INFO - Received XML content for analysis
+2024-11-04 11:49:20,306 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:49:20] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 11:50:03,942 - __main__ - INFO - Starting document generation for mapping: m_BOUPDATE_FILE_LOAD
+2024-11-04 11:50:03,945 - __main__ - INFO - Generating document content using OpenAI
+2024-11-04 11:50:03,947 - __main__ - INFO - Starting design document generation
+2024-11-04 11:50:03,950 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-04 11:50:07,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:50:16,406 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:50:31,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:50:41,492 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 11:50:41,496 - __main__ - INFO - Document generation completed successfully
+2024-11-04 11:50:41,497 - __main__ - INFO - Successfully generated document content
+2024-11-04 11:50:41,498 - __main__ - INFO - Converting content to PDF
+2024-11-04 11:50:41,522 - __main__ - INFO - Successfully generated PDF
+2024-11-04 11:50:41,525 - __main__ - INFO - Successfully completed document generation
+2024-11-04 11:50:41,527 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 11:50:41] "POST /generate_document HTTP/1.1" 200 -
+2024-11-04 12:02:10,505 - root - INFO - OpenAI client initialized successfully
+2024-11-04 12:02:10,509 - root - INFO - Static directories created successfully
+2024-11-04 12:02:10,519 - root - INFO - Static directories created successfully
+2024-11-04 12:02:10,554 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 12:02:10,556 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 12:02:45,794 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:02:45] "GET / HTTP/1.1" 200 -
+2024-11-04 12:02:46,147 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:02:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 12:02:46,151 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:02:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-04 12:02:53,599 - __main__ - INFO - Received XML content for analysis
+2024-11-04 12:02:53,601 - __main__ - ERROR - Error analyzing mapping: 'InformaticaAnalyzer' object has no attribute 'parse_xml_string'
+Traceback (most recent call last):
+  File "C:\Users\DeepanShanmugam\OneDrive - MuniConS GmbH\Documents\Visual Studio Code\49_DS_PET_PROJECT\Informatica Decoder\app.py", line 475, in analyze_mapping
+    mapping = analyzer.parse_xml_string(xml_content)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'InformaticaAnalyzer' object has no attribute 'parse_xml_string'
+2024-11-04 12:02:53,611 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:02:53] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-11-04 12:07:05,177 - root - INFO - OpenAI client initialized successfully
+2024-11-04 12:07:05,180 - root - INFO - Static directories created successfully
+2024-11-04 12:07:05,189 - root - INFO - Static directories created successfully
+2024-11-04 12:07:05,228 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 12:07:05,230 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 12:07:06,732 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:07:06] "GET / HTTP/1.1" 200 -
+2024-11-04 12:07:07,072 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:07:07] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-04 12:07:07,075 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:07:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 12:07:14,215 - __main__ - INFO - Received XML content for analysis
+2024-11-04 12:07:14,217 - __main__ - ERROR - Error parsing XML: 'InformaticaAnalyzer' object has no attribute 'extract_mapping_content'
+2024-11-04 12:07:14,232 - __main__ - ERROR - Error analyzing mapping: 'InformaticaAnalyzer' object has no attribute 'extract_mapping_content'
+Traceback (most recent call last):
+  File "C:\Users\DeepanShanmugam\OneDrive - MuniConS GmbH\Documents\Visual Studio Code\49_DS_PET_PROJECT\Informatica Decoder\app.py", line 488, in analyze_mapping
+    mapping = analyzer.parse_xml_string(xml_content)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\DeepanShanmugam\OneDrive - MuniConS GmbH\Documents\Visual Studio Code\49_DS_PET_PROJECT\Informatica Decoder\app.py", line 328, in parse_xml_string
+    mapping_xml = self.extract_mapping_content(xml_string)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'InformaticaAnalyzer' object has no attribute 'extract_mapping_content'
+2024-11-04 12:07:14,262 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:07:14] "[35m[1mPOST /analyze HTTP/1.1[0m" 500 -
+2024-11-04 12:08:53,338 - root - INFO - OpenAI client initialized successfully
+2024-11-04 12:08:53,341 - root - INFO - Static directories created successfully
+2024-11-04 12:08:53,346 - root - INFO - Static directories created successfully
+2024-11-04 12:08:53,382 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 12:08:53,385 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 12:08:54,910 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:08:54] "GET / HTTP/1.1" 200 -
+2024-11-04 12:08:55,319 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:08:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 12:08:55,322 - werkzeug - INFO - 127.0.0.1 - - [04/Nov/2024 12:08:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-04 12:10:37,075 - root - INFO - OpenAI client initialized successfully
+2024-11-04 12:10:37,078 - root - INFO - Static directories created successfully
+2024-11-04 12:10:37,084 - root - INFO - Static directories created successfully
+2024-11-04 12:10:37,101 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.0.106:5000
+2024-11-04 12:10:37,103 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-11-04 12:10:45,368 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 12:10:45] "GET / HTTP/1.1" 200 -
+2024-11-04 12:10:45,787 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 12:10:45] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-04 12:10:45,791 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 12:10:45] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-04 12:10:55,210 - __main__ - INFO - Received XML content for analysis
+2024-11-04 12:10:55,215 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 12:10:55] "POST /analyze HTTP/1.1" 200 -
+2024-11-04 12:11:11,670 - __main__ - INFO - Starting document generation for mapping: m_BOUPDATE_FILE_LOAD
+2024-11-04 12:11:11,673 - __main__ - INFO - Generating document content using OpenAI
+2024-11-04 12:11:11,675 - __main__ - INFO - Starting design document generation
+2024-11-04 12:11:11,679 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-04 12:11:16,697 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 12:11:25,374 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 12:11:38,319 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 12:11:50,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-04 12:11:50,409 - __main__ - INFO - Document generation completed successfully
+2024-11-04 12:11:50,411 - __main__ - INFO - Successfully generated document content
+2024-11-04 12:11:50,412 - __main__ - INFO - Converting content to PDF
+2024-11-04 12:11:50,425 - __main__ - INFO - Successfully generated PDF
+2024-11-04 12:11:50,428 - __main__ - INFO - Successfully completed document generation
+2024-11-04 12:11:50,430 - werkzeug - INFO - 192.168.0.106 - - [04/Nov/2024 12:11:50] "POST /generate_document HTTP/1.1" 200 -
+2024-11-05 09:52:31,786 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 09:52:31] "GET / HTTP/1.1" 200 -
+2024-11-05 09:52:31,935 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 09:52:31] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 09:52:31,935 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 09:52:31] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 09:56:46,225 - __main__ - INFO - Received XML content for analysis
+2024-11-05 09:56:46,336 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 09:56:46] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 09:56:51,012 - __main__ - INFO - Starting document generation for mapping: m_BOUPDATE_FILE_LOAD
+2024-11-05 09:56:51,012 - __main__ - INFO - Generating document content using OpenAI
+2024-11-05 09:56:51,021 - __main__ - INFO - Starting design document generation
+2024-11-05 09:56:51,053 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-05 09:56:55,371 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 09:57:01,828 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 09:57:12,261 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 09:57:21,572 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 09:57:21,583 - __main__ - INFO - Document generation completed successfully
+2024-11-05 09:57:21,588 - __main__ - INFO - Successfully generated document content
+2024-11-05 09:57:21,588 - __main__ - INFO - Converting content to PDF
+2024-11-05 09:57:21,745 - __main__ - INFO - Successfully generated PDF
+2024-11-05 09:57:21,753 - __main__ - INFO - Successfully completed document generation
+2024-11-05 09:57:21,761 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 09:57:21] "POST /generate_document HTTP/1.1" 200 -
+2024-11-05 10:08:24,748 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:08:24] "GET / HTTP/1.1" 200 -
+2024-11-05 10:08:24,877 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:08:24] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:08:24,902 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:08:24] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:08:43,156 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:08:43,186 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:08:43] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:09:08,356 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:09:08] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:12:32,404 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:12:32] "GET / HTTP/1.1" 200 -
+2024-11-05 10:12:32,564 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:12:32] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:12:32,575 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:12:32] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 10:12:40,628 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:12:40,643 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:12:40] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:12:54,360 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:12:54] "GET / HTTP/1.1" 200 -
+2024-11-05 10:12:54,445 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:12:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:12:54,465 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:12:54] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:12:58,096 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:12:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-05 10:13:14,063 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:13:14,067 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:13:14] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:13:23,369 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:13:23] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:21:21,827 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:21:21] "GET / HTTP/1.1" 200 -
+2024-11-05 10:21:22,072 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:21:22] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:21:22,096 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:21:22] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:21:34,687 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:21:34,703 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:21:34] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:26:23,607 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:26:23] "GET / HTTP/1.1" 200 -
+2024-11-05 10:26:24,096 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:26:24] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 10:26:24,100 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:26:24] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:26:35,284 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:26:35,293 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:26:35] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:26:44,658 - __main__ - INFO - Starting document generation for mapping: m_AIA_AGENT_STMT_DEDUCTIONS_WK
+2024-11-05 10:26:44,659 - __main__ - INFO - Generating document content using OpenAI
+2024-11-05 10:26:44,661 - __main__ - INFO - Starting design document generation
+2024-11-05 10:26:44,667 - __main__ - INFO - Generating document sections using OpenAI with word limits
+2024-11-05 10:26:48,823 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 10:26:56,756 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 10:27:08,065 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 10:27:19,638 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2024-11-05 10:27:19,641 - __main__ - INFO - Document generation completed successfully
+2024-11-05 10:27:19,642 - __main__ - INFO - Successfully generated document content
+2024-11-05 10:27:19,643 - __main__ - INFO - Converting content to PDF
+2024-11-05 10:27:19,690 - __main__ - INFO - Successfully generated PDF
+2024-11-05 10:27:19,693 - __main__ - INFO - Successfully completed document generation
+2024-11-05 10:27:19,694 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:27:19] "POST /generate_document HTTP/1.1" 200 -
+2024-11-05 10:27:22,960 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:27:22] "GET / HTTP/1.1" 200 -
+2024-11-05 10:27:23,030 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:27:23] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:27:23,030 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:27:23] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:27:24,185 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:27:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-05 10:27:38,504 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:27:38,514 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:27:38] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:27:47,732 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:27:47] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:34:02,553 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:34:02] "GET / HTTP/1.1" 200 -
+2024-11-05 10:34:02,587 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:34:02] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:34:02,617 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:34:02] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 10:34:11,997 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:34:11] "GET / HTTP/1.1" 200 -
+2024-11-05 10:34:12,150 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:34:12] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:34:12,151 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:34:12] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 10:34:16,673 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:34:16,681 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 10:34:16] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:34:52,194 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:34:52] "GET / HTTP/1.1" 200 -
+2024-11-05 10:34:52,416 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:34:52] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:34:52,416 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:34:52] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:34:56,088 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:34:56,094 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:34:56] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:37:09,110 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:09] "GET / HTTP/1.1" 200 -
+2024-11-05 10:37:09,318 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:37:09,320 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 10:37:18,410 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:37:18,417 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:18] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:37:36,312 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:36] "GET / HTTP/1.1" 200 -
+2024-11-05 10:37:36,343 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:36] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:37:36,343 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:36] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:37:36,969 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:36] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-05 10:37:58,108 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:37:58,128 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:37:58] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:41:57,824 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:41:57] "GET / HTTP/1.1" 200 -
+2024-11-05 10:41:58,034 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:41:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 10:41:58,054 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:41:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:42:07,100 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:42:07,104 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:42:07] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:43:08,661 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:43:08] "GET / HTTP/1.1" 200 -
+2024-11-05 10:43:08,817 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:43:08] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 10:43:08,826 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:43:08] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:43:16,508 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:43:16,512 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:43:16] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:43:58,978 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:43:58] "GET / HTTP/1.1" 200 -
+2024-11-05 10:43:59,060 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:43:59] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 10:43:59,067 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:43:59] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:44:06,696 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:44:06,700 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:44:06] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:59:34,498 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:59:34] "GET / HTTP/1.1" 200 -
+2024-11-05 10:59:34,607 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:59:34] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 10:59:34,608 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:59:34] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 10:59:45,536 - __main__ - INFO - Received XML content for analysis
+2024-11-05 10:59:45,548 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:59:45] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 10:59:59,206 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 10:59:59] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:05:25,075 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:05:25] "GET / HTTP/1.1" 200 -
+2024-11-05 11:05:25,161 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:05:25] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:05:25,208 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:05:25] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:05:32,493 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:05:32,498 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:05:32] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:05:54,207 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:05:54] "GET / HTTP/1.1" 200 -
+2024-11-05 11:05:54,496 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:05:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:05:54,497 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:05:54] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:05:58,022 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:05:58,026 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:05:58] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:06:20,109 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:06:20,122 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:06:20] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:13:46,635 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:13:46] "GET / HTTP/1.1" 200 -
+2024-11-05 11:13:46,759 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:13:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:13:46,762 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:13:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:13:54,873 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:13:54] "GET / HTTP/1.1" 200 -
+2024-11-05 11:13:54,968 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:13:54] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:13:54,984 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:13:54] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:14:06,625 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:14:06] "GET / HTTP/1.1" 200 -
+2024-11-05 11:14:06,680 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:14:06] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:14:06,682 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:14:06] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:14:08,886 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:14:08,896 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:14:08] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:14:31,904 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:14:31,916 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:14:31] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:19:34,418 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:19:34] "GET / HTTP/1.1" 200 -
+2024-11-05 11:19:34,448 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:19:34] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:19:34,467 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:19:34] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:19:37,060 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:19:37,066 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:19:37] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:19:46,532 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:19:46] "GET / HTTP/1.1" 200 -
+2024-11-05 11:19:46,722 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:19:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:19:46,724 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:19:46] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:19:51,314 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:19:51,320 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:19:51] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:21:07,291 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:21:07] "GET / HTTP/1.1" 200 -
+2024-11-05 11:21:07,362 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:21:07] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:21:07,414 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:21:07] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:21:11,506 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:21:11] "GET / HTTP/1.1" 200 -
+2024-11-05 11:21:11,683 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:21:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:21:11,684 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:21:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:21:23,271 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:21:23,285 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:21:23] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:34:26,458 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:34:26] "GET / HTTP/1.1" 200 -
+2024-11-05 11:34:26,502 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:34:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:34:26,504 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:34:26] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:34:37,038 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:34:37,124 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:34:37] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:34:54,883 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:34:54] "GET / HTTP/1.1" 200 -
+2024-11-05 11:34:55,117 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:34:55] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:34:55,118 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:34:55] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:35:03,735 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:35:03,745 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:35:03] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:36:13,782 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:36:13] "GET / HTTP/1.1" 200 -
+2024-11-05 11:36:14,009 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:36:14] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:36:14,012 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:36:14] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:36:22,714 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:36:22,727 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:36:22] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:37:09,685 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:09] "GET / HTTP/1.1" 200 -
+2024-11-05 11:37:09,744 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:09] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:37:09,745 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:09] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:37:18,094 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:37:18,105 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:18] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:37:42,533 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:42] "GET / HTTP/1.1" 200 -
+2024-11-05 11:37:42,723 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:42] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:37:42,724 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:42] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:37:48,088 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:37:48,098 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:37:48] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:38:30,075 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:38:30] "GET / HTTP/1.1" 200 -
+2024-11-05 11:38:30,181 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:38:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:38:30,182 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:38:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:38:35,102 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:38:35,112 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:38:35] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:38:46,643 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:38:46] "GET / HTTP/1.1" 200 -
+2024-11-05 11:38:46,740 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:38:46] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:38:46,741 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:38:46] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:38:52,687 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:38:52,691 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:38:52] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:39:52,906 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:39:52] "GET / HTTP/1.1" 200 -
+2024-11-05 11:39:52,929 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:39:52] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:39:52,936 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:39:52] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:40:18,022 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:40:18] "GET / HTTP/1.1" 200 -
+2024-11-05 11:40:18,152 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:40:18] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:40:18,152 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:40:18] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:40:31,463 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:40:31,468 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:40:31] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:40:58,433 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:40:58] "GET / HTTP/1.1" 200 -
+2024-11-05 11:40:58,634 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:40:58] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:40:58,635 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:40:58] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:41:02,934 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:41:02,947 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:41:02] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:44:53,686 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:44:53] "GET / HTTP/1.1" 200 -
+2024-11-05 11:44:53,723 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:44:53] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:44:53,723 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:44:53] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:45:05,545 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:45:05,557 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:45:05] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:45:41,001 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:45:41] "GET / HTTP/1.1" 200 -
+2024-11-05 11:45:41,084 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:45:41] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:45:41,084 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:45:41] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:45:46,510 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:45:46,524 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:45:46] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:46:36,149 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:46:36] "GET / HTTP/1.1" 200 -
+2024-11-05 11:46:36,255 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:46:36] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:46:36,257 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:46:36] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:49:05,653 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:05] "GET / HTTP/1.1" 200 -
+2024-11-05 11:49:05,834 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:05] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:49:05,838 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:05] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:49:11,027 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:11] "GET / HTTP/1.1" 200 -
+2024-11-05 11:49:11,072 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:11] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:49:11,073 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:11] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:49:26,354 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:49:26,369 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:26] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:49:58,447 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:58] "GET / HTTP/1.1" 200 -
+2024-11-05 11:49:58,505 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:58] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:49:58,509 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:49:58] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:50:26,346 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:50:26] "GET / HTTP/1.1" 200 -
+2024-11-05 11:50:26,629 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:50:26] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:50:26,631 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:50:26] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:50:34,081 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:50:34,089 - __main__ - ERROR - XML parsing error: not well-formed (invalid token): line 1, column 5
+2024-11-05 11:50:34,097 - __main__ - ERROR - Error parsing XML: Invalid XML format: not well-formed (invalid token): line 1, column 5
+2024-11-05 11:50:34,099 - __main__ - ERROR - Validation error: Invalid XML format: not well-formed (invalid token): line 1, column 5
+2024-11-05 11:50:34,111 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:50:34] "[31m[1mPOST /analyze HTTP/1.1[0m" 400 -
+2024-11-05 11:50:50,039 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:50:50] "GET / HTTP/1.1" 200 -
+2024-11-05 11:50:50,186 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:50:50] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:50:50,187 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:50:50] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:50:53,064 - __main__ - INFO - Received XML content for analysis
+2024-11-05 11:50:53,073 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:50:53] "POST /analyze HTTP/1.1" 200 -
+2024-11-05 11:51:28,799 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:28] "GET / HTTP/1.1" 200 -
+2024-11-05 11:51:28,867 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:28] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:51:28,871 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:28] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:51:29,937 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:29] "GET / HTTP/1.1" 200 -
+2024-11-05 11:51:29,958 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:29] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:51:29,960 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:29] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:51:30,459 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:30] "GET / HTTP/1.1" 200 -
+2024-11-05 11:51:30,482 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:51:30,484 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:51:30,698 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:30] "GET / HTTP/1.1" 200 -
+2024-11-05 11:51:30,740 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:30] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:51:30,742 - werkzeug - INFO - 127.0.0.1 - - [05/Nov/2024 11:51:30] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -
+2024-11-05 11:52:17,173 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:52:17] "GET / HTTP/1.1" 200 -
+2024-11-05 11:52:17,425 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:52:17] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:52:17,427 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:52:17] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:53:54,216 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:54] "GET / HTTP/1.1" 200 -
+2024-11-05 11:53:54,258 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:54] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:53:54,260 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:54] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:53:55,203 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET / HTTP/1.1" 200 -
+2024-11-05 11:53:55,220 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:53:55,221 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:53:55,558 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET / HTTP/1.1" 200 -
+2024-11-05 11:53:55,585 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:53:55,586 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:53:55,871 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET / HTTP/1.1" 200 -
+2024-11-05 11:53:55,897 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:53:55,901 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:53:55] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:54:48,843 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:54:48] "GET / HTTP/1.1" 200 -
+2024-11-05 11:54:49,086 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:54:49] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:54:49,086 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:54:49] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:56:00,856 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:56:00] "GET / HTTP/1.1" 200 -
+2024-11-05 11:56:01,015 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:56:01] "GET /static/css/styles.css HTTP/1.1" 200 -
+2024-11-05 11:56:01,022 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:56:01] "GET /static/js/main.js HTTP/1.1" 200 -
+2024-11-05 11:58:35,166 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:58:35] "GET / HTTP/1.1" 200 -
+2024-11-05 11:58:35,246 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:58:35] "[36mGET /static/css/styles.css HTTP/1.1[0m" 304 -
+2024-11-05 11:58:35,252 - werkzeug - INFO - 192.168.1.7 - - [05/Nov/2024 11:58:35] "[36mGET /static/js/main.js HTTP/1.1[0m" 304 -

@@ -1,0 +1,112 @@
+<MAPPING DESCRIPTION="" ISVALID="YES" NAME="m_BOUPDATE_FILE_LOAD" OBJECTVERSION="1" VERSIONNUMBER="1">
+        <TRANSFORMATION DESCRIPTION="" NAME="SQ_BOUPDATE_DMP" OBJECTVERSION="1" REUSABLE="NO" TYPE="Source Qualifier" VERSIONNUMBER="1">
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="ADDORDEL" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="USERID" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="GROUPNM" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="250" SCALE="0" />
+            <TABLEATTRIBUTE NAME="Sql Query" VALUE="select * from (&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - AGY SL Agent' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'SLT%' and ogpo.GenericAttribute4 &lt;&gt; 48 and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='SLPAGY')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - AGY SL Agency&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - AGY SL Agency' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'SLY%' and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='SLPAGY')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - MC SL Agent&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - MC SL Agent' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'SLT%' and ogpo.GenericAttribute4 &lt;&gt; 48 and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='SLP_Multi_Channel')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - MC SL Agency&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - MC SL Agency' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'SLY%' and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='SLP_Multi_Channel')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - AGY BN Agent&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - AGY BN Agent' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'BLT%' and ogpo.GenericAttribute4 &lt;&gt; 48 and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='BLUAGY')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - AGY BN Agency&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - AGY BN Agency' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'BLY%' and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='BLUAGY')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - MC SL Agent&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - MC SL Agent' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'BLT%' and ogpo.GenericAttribute4 &lt;&gt; 48 and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='BLU_Multi_Channel')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - MC SL Agency&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - MC SL Agency' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'BLY%' and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='BLU_Multi_Channel')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - PD BN Agency&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - PD BN Agency' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'BLY%' and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='BLUPD')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - PD SL Agency&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - PD SL Agency' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'SLY%' and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='SLPPD')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - FA SL Agent&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - FA SL Agent' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'SLT%' and ogpo.GenericAttribute4 &lt;&gt; 48 and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='SLPAFA')&#13;&#10;UNION&#13;&#10;--INF Compensation Reports User Group - AGY_PU - FA SL Agency&#13;&#10;select 'add' as addordel,ogpo.NAME||'_INF' as userid,'INF Compensation Reports User Group - AGY_PU - FA SL Agency' as groupnm&#13;&#10;from cs_position ogpo&#13;&#10;where  ogpo.NAME like 'SLY%' and ogpo.removedate = to_date('2200-01-01','yyyy-mm-dd')&#13;&#10;and ogpo.processingunitseq = (select bus.processingunitseq from cs_businessunit bus&#13;&#10;where bus.name='SLPAFA')&#13;&#10;)  order by 2 desc" />
+            <TABLEATTRIBUTE NAME="User Defined Join" VALUE="" />
+            <TABLEATTRIBUTE NAME="Source Filter" VALUE="" />
+            <TABLEATTRIBUTE NAME="Number Of Sorted Ports" VALUE="0" />
+            <TABLEATTRIBUTE NAME="Tracing Level" VALUE="Normal" />
+            <TABLEATTRIBUTE NAME="Select Distinct" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Is Partitionable" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Pre SQL" VALUE="" />
+            <TABLEATTRIBUTE NAME="Post SQL" VALUE="" />
+            <TABLEATTRIBUTE NAME="Output is deterministic" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Output is repeatable" VALUE="Never" />
+        </TRANSFORMATION>
+
+            <TRANSFORMATION DESCRIPTION="" NAME="EXP_BOUPDATE_FILE" OBJECTVERSION="1" REUSABLE="NO" TYPE="Expression" VERSIONNUMBER="1">
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" EXPRESSION="ADDORDEL" EXPRESSIONTYPE="GENERAL" NAME="ADDORDEL" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" EXPRESSION="USERID" EXPRESSIONTYPE="GENERAL" NAME="USERID" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" EXPRESSION="GROUPNM" EXPRESSIONTYPE="GENERAL" NAME="GROUPNM" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="250" SCALE="0" />
+            <TABLEATTRIBUTE NAME="Tracing Level" VALUE="Normal" />
+        </TRANSFORMATION>
+        <TRANSFORMATION DESCRIPTION="" NAME="EXP_LKP" OBJECTVERSION="1" REUSABLE="NO" TYPE="Expression" VERSIONNUMBER="1">
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" EXPRESSION="lkp_ADDORDEL" EXPRESSIONTYPE="GENERAL" NAME="lkp_ADDORDEL" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" EXPRESSION="o_ADDORDEL" EXPRESSIONTYPE="GENERAL" NAME="o_ADDORDEL" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" EXPRESSION="o_USERID" EXPRESSIONTYPE="GENERAL" NAME="o_USERID" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" EXPRESSION="o_GROUPNM" EXPRESSIONTYPE="GENERAL" NAME="o_GROUPNM" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="250" SCALE="0" />
+            <TABLEATTRIBUTE NAME="Tracing Level" VALUE="Normal" />
+        </TRANSFORMATION>
+        <TRANSFORMATION DESCRIPTION="" NAME="FIL_Valid" OBJECTVERSION="1" REUSABLE="NO" TYPE="Filter" VERSIONNUMBER="1">
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="lkp_ADDORDEL" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="o_ADDORDEL" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="o_USERID" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="o_GROUPNM" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="250" SCALE="0" />
+            <TABLEATTRIBUTE NAME="Filter Condition" VALUE="iif(isnull(lkp_ADDORDEL),TRUE,FALSE)" />
+            <TABLEATTRIBUTE NAME="Tracing Level" VALUE="Normal" />
+        </TRANSFORMATION>
+        <TRANSFORMATION DESCRIPTION="" NAME="LKPTRANS" OBJECTVERSION="1" REUSABLE="NO" TYPE="Lookup Procedure" VERSIONNUMBER="1">
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="ADDORDEL" PICTURETEXT="" PORTTYPE="LOOKUP/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="USERID" PICTURETEXT="" PORTTYPE="LOOKUP/OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="GROUPNM" PICTURETEXT="" PORTTYPE="LOOKUP/OUTPUT" PRECISION="250" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="i_ADDORDEL" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="10" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="i_USERID" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="50" SCALE="0" />
+            <TRANSFORMFIELD DATATYPE="nstring" DEFAULTVALUE="" DESCRIPTION="" NAME="i_GROUPNM" PICTURETEXT="" PORTTYPE="INPUT/OUTPUT" PRECISION="250" SCALE="0" />
+            <TABLEATTRIBUTE NAME="Lookup Sql Override" VALUE="" />
+            <TABLEATTRIBUTE NAME="Lookup table name" VALUE="BOUPDATE_DMP" />
+            <TABLEATTRIBUTE NAME="Lookup Source Filter" VALUE="" />
+            <TABLEATTRIBUTE NAME="Lookup caching enabled" VALUE="YES" />
+            <TABLEATTRIBUTE NAME="Lookup policy on multiple match" VALUE="Use Any Value" />
+            <TABLEATTRIBUTE NAME="Lookup condition" VALUE="ADDORDEL = i_ADDORDEL AND USERID = i_USERID AND GROUPNM = i_GROUPNM" />
+            <TABLEATTRIBUTE NAME="Connection Information" VALUE="$Target" />
+            <TABLEATTRIBUTE NAME="Source Type" VALUE="Database" />
+            <TABLEATTRIBUTE NAME="Recache if Stale" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Tracing Level" VALUE="Normal" />
+            <TABLEATTRIBUTE NAME="Lookup cache directory name" VALUE="$PMCacheDir" />
+            <TABLEATTRIBUTE NAME="Lookup cache initialize" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Lookup cache persistent" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Lookup Data Cache Size" VALUE="Auto" />
+            <TABLEATTRIBUTE NAME="Lookup Index Cache Size" VALUE="Auto" />
+            <TABLEATTRIBUTE NAME="Dynamic Lookup Cache" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Synchronize Dynamic Cache" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Output Old Value On Update" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Update Dynamic Cache Condition" VALUE="TRUE" />
+            <TABLEATTRIBUTE NAME="Cache File Name Prefix" VALUE="" />
+            <TABLEATTRIBUTE NAME="Re-cache from lookup source" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Insert Else Update" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Update Else Insert" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Datetime Format" VALUE="" />
+            <TABLEATTRIBUTE NAME="Thousand Separator" VALUE="None" />
+            <TABLEATTRIBUTE NAME="Decimal Separator" VALUE="." />
+            <TABLEATTRIBUTE NAME="Case Sensitive String Comparison" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Null ordering" VALUE="Null Is Highest Value" />
+            <TABLEATTRIBUTE NAME="Sorted Input" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Lookup source is static" VALUE="NO" />
+            <TABLEATTRIBUTE NAME="Pre-build lookup cache" VALUE="Auto" />
+            <TABLEATTRIBUTE NAME="Subsecond Precision" VALUE="6" />
+        </TRANSFORMATION>
+        <INSTANCE DESCRIPTION="" NAME="EXP_BOUPDATE_FILE1" TRANSFORMATION_NAME="EXP_BOUPDATE_FILE" TRANSFORMATION_TYPE="Target Definition" TYPE="TARGET" />
+        <INSTANCE DBDNAME="lp_dev_DB" DESCRIPTION="" NAME="BOUPDATE_DMP" TRANSFORMATION_NAME="BOUPDATE_DMP" TRANSFORMATION_TYPE="Source Definition" TYPE="SOURCE" />
+        <INSTANCE DESCRIPTION="" NAME="SQ_BOUPDATE_DMP" REUSABLE="NO" TRANSFORMATION_NAME="SQ_BOUPDATE_DMP" TRANSFORMATION_TYPE="Source Qualifier" TYPE="TRANSFORMATION">
+            <ASSOCIATED_SOURCE_INSTANCE NAME="BOUPDATE_DMP" />
+        </INSTANCE>
+        <INSTANCE DESCRIPTION="" NAME="EXP_BOUPDATE_FILE" REUSABLE="NO" TRANSFORMATION_NAME="EXP_BOUPDATE_FILE" TRANSFORMATION_TYPE="Expression" TYPE="TRANSFORMATION" />
+        <INSTANCE DESCRIPTION="" NAME="EXP_LKP" REUSABLE="NO" TRANSFORMATION_NAME="EXP_LKP" TRANSFORMATION_TYPE="Expression" TYPE="TRANSFORMATION" />
+        <INSTANCE DESCRIPTION="" NAME="FIL_Valid" REUSABLE="NO" TRANSFORMATION_NAME="FIL_Valid" TRANSFORMATION_TYPE="Filter" TYPE="TRANSFORMATION" />
+        <INSTANCE DESCRIPTION="" NAME="LKPTRANS" REUSABLE="NO" TRANSFORMATION_NAME="LKPTRANS" TRANSFORMATION_TYPE="Lookup Procedure" TYPE="TRANSFORMATION" />
+        <CONNECTOR FROMFIELD="o_ADDORDEL" FROMINSTANCE="FIL_Valid" FROMINSTANCETYPE="Filter" TOFIELD="ADDORDEL" TOINSTANCE="EXP_BOUPDATE_FILE1" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="o_USERID" FROMINSTANCE="FIL_Valid" FROMINSTANCETYPE="Filter" TOFIELD="USERID" TOINSTANCE="EXP_BOUPDATE_FILE1" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="o_GROUPNM" FROMINSTANCE="FIL_Valid" FROMINSTANCETYPE="Filter" TOFIELD="GROUPNM" TOINSTANCE="EXP_BOUPDATE_FILE1" TOINSTANCETYPE="Target Definition" />
+        <CONNECTOR FROMFIELD="ADDORDEL" FROMINSTANCE="BOUPDATE_DMP" FROMINSTANCETYPE="Source Definition" TOFIELD="ADDORDEL" TOINSTANCE="SQ_BOUPDATE_DMP" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="USERID" FROMINSTANCE="BOUPDATE_DMP" FROMINSTANCETYPE="Source Definition" TOFIELD="USERID" TOINSTANCE="SQ_BOUPDATE_DMP" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="GROUPNM" FROMINSTANCE="BOUPDATE_DMP" FROMINSTANCETYPE="Source Definition" TOFIELD="GROUPNM" TOINSTANCE="SQ_BOUPDATE_DMP" TOINSTANCETYPE="Source Qualifier" />
+        <CONNECTOR FROMFIELD="ADDORDEL" FROMINSTANCE="SQ_BOUPDATE_DMP" FROMINSTANCETYPE="Source Qualifier" TOFIELD="ADDORDEL" TOINSTANCE="EXP_BOUPDATE_FILE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="USERID" FROMINSTANCE="SQ_BOUPDATE_DMP" FROMINSTANCETYPE="Source Qualifier" TOFIELD="USERID" TOINSTANCE="EXP_BOUPDATE_FILE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="GROUPNM" FROMINSTANCE="SQ_BOUPDATE_DMP" FROMINSTANCETYPE="Source Qualifier" TOFIELD="GROUPNM" TOINSTANCE="EXP_BOUPDATE_FILE" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="ADDORDEL" FROMINSTANCE="EXP_BOUPDATE_FILE" FROMINSTANCETYPE="Expression" TOFIELD="o_ADDORDEL" TOINSTANCE="EXP_LKP" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="USERID" FROMINSTANCE="EXP_BOUPDATE_FILE" FROMINSTANCETYPE="Expression" TOFIELD="o_USERID" TOINSTANCE="EXP_LKP" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="GROUPNM" FROMINSTANCE="EXP_BOUPDATE_FILE" FROMINSTANCETYPE="Expression" TOFIELD="o_GROUPNM" TOINSTANCE="EXP_LKP" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="ADDORDEL" FROMINSTANCE="EXP_BOUPDATE_FILE" FROMINSTANCETYPE="Expression" TOFIELD="i_ADDORDEL" TOINSTANCE="LKPTRANS" TOINSTANCETYPE="Lookup Procedure" />
+        <CONNECTOR FROMFIELD="USERID" FROMINSTANCE="EXP_BOUPDATE_FILE" FROMINSTANCETYPE="Expression" TOFIELD="i_USERID" TOINSTANCE="LKPTRANS" TOINSTANCETYPE="Lookup Procedure" />
+        <CONNECTOR FROMFIELD="GROUPNM" FROMINSTANCE="EXP_BOUPDATE_FILE" FROMINSTANCETYPE="Expression" TOFIELD="i_GROUPNM" TOINSTANCE="LKPTRANS" TOINSTANCETYPE="Lookup Procedure" />
+        <CONNECTOR FROMFIELD="ADDORDEL" FROMINSTANCE="LKPTRANS" FROMINSTANCETYPE="Lookup Procedure" TOFIELD="lkp_ADDORDEL" TOINSTANCE="EXP_LKP" TOINSTANCETYPE="Expression" />
+        <CONNECTOR FROMFIELD="lkp_ADDORDEL" FROMINSTANCE="EXP_LKP" FROMINSTANCETYPE="Expression" TOFIELD="lkp_ADDORDEL" TOINSTANCE="FIL_Valid" TOINSTANCETYPE="Filter" />
+        <CONNECTOR FROMFIELD="o_ADDORDEL" FROMINSTANCE="EXP_LKP" FROMINSTANCETYPE="Expression" TOFIELD="o_ADDORDEL" TOINSTANCE="FIL_Valid" TOINSTANCETYPE="Filter" />
+        <CONNECTOR FROMFIELD="o_USERID" FROMINSTANCE="EXP_LKP" FROMINSTANCETYPE="Expression" TOFIELD="o_USERID" TOINSTANCE="FIL_Valid" TOINSTANCETYPE="Filter" />
+        <CONNECTOR FROMFIELD="o_GROUPNM" FROMINSTANCE="EXP_LKP" FROMINSTANCETYPE="Expression" TOFIELD="o_GROUPNM" TOINSTANCE="FIL_Valid" TOINSTANCETYPE="Filter" />
+        <TARGETLOADORDER ORDER="1" TARGETINSTANCE="EXP_BOUPDATE_FILE1" />
+        <ERPINFO />
+    </MAPPING>
+    
