@@ -1,0 +1,27 @@
+﻿# Ignore files larger than 75MB
+# Ignore common development folders
+node_modules/
+*.log
+
+# Ignore specific large files and directories
+11_DATA_SCIENCE/
+35_RAG/**/*.dll
+35_RAG/**/*.lib
+35_RAG/**/*.csv
+39_DATASCIENCE/**/*.csv
+30_AWS_SageMaker/Bird Classification/bird-classification-competition
+
+# Specific large files
+11_DATA_SCIENCE/11_DATA_SCIENCE/DataScience_basics.pdf
+35_RAG/DS_RAG/Daily Dose of Data Science - Archive.pdf
+
+# Ignore all .venv folders
+**/.venv/
+
+# Ignore typical Python virtual environment names
+**/venv/
+**/.virtualenv/
+**/.env
+.env
+*.env
+**/.env
